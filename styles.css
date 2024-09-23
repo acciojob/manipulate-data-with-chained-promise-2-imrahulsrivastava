@@ -1,1 +1,18 @@
-/*  your css code here. If applicable */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #282828;
+  color: #e7e7e7;
+}
+
+div {
+  align-items: center;
+  display: flex;
+  font-size: 1.8rem;
+  height: 100vh;
+  justify-content: center;
+}
