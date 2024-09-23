@@ -13,7 +13,7 @@ manipulateData()
       setTimeout(() => {
         const evenNumbers = arr.filter((num) => num % 2 === 0);
         document.getElementById("output").innerText = `${evenNumbers.join(
-          ", "
+          ","
         )}`;
         resolve(evenNumbers);
       }, 1000);
@@ -24,7 +24,7 @@ manipulateData()
       setTimeout(() => {
         const multipliedNumbers = evenNumbers.map((num) => num * 2);
         document.getElementById("output").innerText = `${multipliedNumbers.join(
-          ", "
+          ","
         )}`;
         resolve(multipliedNumbers);
       }, 2000);
