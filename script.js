@@ -12,9 +12,9 @@ manipulateData()
     return new Promise((resolve) => {
       setTimeout(() => {
         const evenNumbers = arr.filter((num) => num % 2 === 0);
-        document.getElementById(
-          "output"
-        ).innerText = `Even Numbers: ${evenNumbers.join(", ")}`;
+        document.getElementById("output").innerText = `${evenNumbers.join(
+          ", "
+        )}`;
         resolve(evenNumbers);
       }, 1000);
     });
@@ -23,9 +23,9 @@ manipulateData()
     return new Promise((resolve) => {
       setTimeout(() => {
         const multipliedNumbers = evenNumbers.map((num) => num * 2);
-        document.getElementById(
-          "output"
-        ).innerText = `Multiplied Numbers: ${multipliedNumbers.join(", ")}`;
+        document.getElementById("output").innerText = `${multipliedNumbers.join(
+          ", "
+        )}`;
         resolve(multipliedNumbers);
       }, 2000);
     });
